@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+
+
+	RewriteCond %{REQUEST_URI} ^/process [NC]
+	RewriteRule ^(.*)$ /process.php [L]
+    
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php [QSA,L]
+
+
+</IfModule>
