@@ -131,10 +131,8 @@
 
     
     <script src="bower_components/jquery/dist/jquery.js"></script>
-    
     <script src="bower_components/foundation/js/foundation.js"></script>
-
-    <script src="js/vendor/session.js/session.js"></script>
+    <script src="js/vendor/sessionjs/session.js"></script>
     <script src="js/app.js"></script>
     
   </body>

@@ -78,10 +78,8 @@ var app = (function() {
 				type: 'POST',
 				dataType: 'json',
 				data: data,
-				success: function(data){
-					console.log(data);
-										$("#url").val(data.url);
-					
+				success: function(data){					
+					$("#url").val(data.url);
 				}
 			});
 
